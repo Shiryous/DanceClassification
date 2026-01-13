@@ -7,10 +7,10 @@ Create a virtual environment, and install the required packages found in the req
 ```
 pip install -r requirements.txt
 ```
-inside the virtual environment.
+Inside the virtual environment.
 
 ## MLFlow
-The repository makes use of the MLFlow package to 
+The repository makes use of the MLFlow package to track the experiments of the different Machine learning models and their statistics.
 
 
 ## Ballroom Dataset
