@@ -1,5 +1,6 @@
 import os
 import time
+import numpy as np
 
 # Parallelization imports
 import threading
@@ -7,13 +8,12 @@ import queue
 
 import torchaudio
 import torchaudio.transforms as T
-import numpy as np
 from PIL import Image # Pillow library for direct image saving
 from globals import ALL_BALLROOM_FILES, SPECTROGRAM_FOLDER_PATH, AUDIO_FOLDER_PATH
 
 ## Parallelization console
 GLOBAL_QUEUE = queue.Queue()
-NUM_WORKERS = 16
+NUM_WORKERS = 8
 
 def main():
     start = time.time()
@@ -84,7 +84,7 @@ def worker():
 
 def create_raw_mel_spectrogram_image(audio_path, image_path, n_fft=1024, hop_length=512, n_mels=128, target_sr=22050):
     """
-    Loads an audio file, generates its Mel spectrogram, standardizes it, 
+    Loads a .wav audio file, generates the Mel spectrogram, standardizes it, 
     and saves the raw spectrogram data as a grayscale image for neural network training.
     
     Args:
