@@ -1,6 +1,7 @@
 numpy
 matplotlib
 mlflow
+psutil
 librosa
 scikit-image
 ffmpeg

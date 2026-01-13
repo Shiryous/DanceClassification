@@ -1,6 +1,7 @@
-from PIL import Image
 import os
 import math
+from PIL import Image
+from globals import ALL_BALLROOM_SPECTROGRAMS, SPECTROGRAM_FOLDER_PATH, SPLIT_SPECTROGRAM_FOLDER_PATH
 
 def split_spectrogram_horizontal(input_path, output_path, tile_width=128):
     """
@@ -49,12 +50,6 @@ def split_spectrogram_horizontal(input_path, output_path, tile_width=128):
         tile_count += 1
 
     print(f"\nSuccessfully created {tile_count} segments in: {os.path.dirname(output_path)}")
-
-## Folder Structure
-DATASET_FOLDER = 'data/BallroomData'
-SPECTROGRAM_FOLDER_PATH = f'{DATASET_FOLDER}/spectrograms'
-SPLIT_SPECTROGRAM_FOLDER_PATH = f'{DATASET_FOLDER}/split_spectrograms'
-ALL_BALLROOM_SPECTROGRAMS = f'{DATASET_FOLDER}/allBallroomSpectrograms'
 
 try:
     with open(ALL_BALLROOM_SPECTROGRAMS, 'r') as file:

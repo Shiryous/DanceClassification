@@ -9,16 +9,11 @@ import torchaudio
 import torchaudio.transforms as T
 import numpy as np
 from PIL import Image # Pillow library for direct image saving
+from globals import ALL_BALLROOM_FILES, SPECTROGRAM_FOLDER_PATH, AUDIO_FOLDER_PATH
 
 ## Parallelization console
 GLOBAL_QUEUE = queue.Queue()
 NUM_WORKERS = 16
-
-## Folder Structure
-DATASET_FOLDER = 'data/BallroomData'
-AUDIO_FOLDER_PATH = f'{DATASET_FOLDER}/audio_files'
-SPECTROGRAM_FOLDER_PATH = f'{DATASET_FOLDER}/spectrograms'
-ALL_BALLROOM_FILES = f'{DATASET_FOLDER}/allBallroomFiles'
 
 def main():
     start = time.time()
@@ -175,9 +170,8 @@ def create_raw_mel_spectrogram_image(audio_path, image_path, n_fft=1024, hop_len
             print("Directory created successfully.")
         except Exception as e:
             print(f"Error creating directory: {e}")
-            return # Stop execution if folder creation fails
-
-    # 3. Save the image
+            return
+        
     try:
         image_data.save(image_path)   
         print(f"Successfully generated Mel spectrogram (shape: {image_data_255.shape}) and saved to: {image_path}")
