@@ -1,0 +1,11 @@
+numpy
+matplotlib
+mlflow
+librosa
+scikit-image
+ffmpeg
+torchcodec
+torchaudio < 2.9
+torchvision
+matplotlib
+seaborn

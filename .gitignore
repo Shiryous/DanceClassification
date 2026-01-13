@@ -1,0 +1,1006 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#   Usually these files are written by a python script from a template
+#   before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+# Pipfile.lock
+
+# UV
+#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+# uv.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+# poetry.lock
+# poetry.toml
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
+#   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
+# pdm.lock
+# pdm.toml
+.pdm-python
+.pdm-build/
+
+# pixi
+#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
+# pixi.lock
+#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
+#   in the .venv directory. It is recommended not to include this directory in version control.
+.pixi
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# Redis
+*.rdb
+*.aof
+*.pid
+
+# RabbitMQ
+mnesia/
+rabbitmq/
+rabbitmq-data/
+
+# ActiveMQ
+activemq-data/
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#   JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#   be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#   and can be added to the global gitignore or merged into this file.  For a more nuclear
+#   option (not recommended) you can uncomment the following to ignore the entire idea folder.
+# .idea/
+
+# Abstra
+#   Abstra is an AI-powered process automation framework.
+#   Ignore directories containing user credentials, local state, and settings.
+#   Learn more at https://abstra.io/docs
+.abstra/
+
+# Visual Studio Code
+#   Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
+#   that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+#   and can be added to the global gitignore or merged into this file. However, if you prefer, 
+#   you could uncomment the following to ignore the entire vscode folder
+# .vscode/
+
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# Streamlit
+.streamlit/secrets.
+
+# Audio Files
+data/BallroomData/spectrograms
+data/BallroomData/split_spectrograms
+data/BallroomData/audio_files/Bachata/Alex Bueno - Que Vuelva.wav
+data/BallroomData/audio_files/Bachata/Aventura - Amor de Madre.wav
+data/BallroomData/audio_files/Bachata/Aventura - Angelito.wav
+data/BallroomData/audio_files/Bachata/Aventura - Dile al Amor.wav
+data/BallroomData/audio_files/Bachata/Aventura - El Malo.wav
+data/BallroomData/audio_files/Bachata/Aventura - El Perdedor.wav
+data/BallroomData/audio_files/Bachata/Aventura - Enseñame a Olvidar.wav
+data/BallroomData/audio_files/Bachata/Aventura - Hermanita.wav
+data/BallroomData/audio_files/Bachata/Aventura - Inmortal.wav
+data/BallroomData/audio_files/Bachata/Aventura - Los Infieles.wav
+data/BallroomData/audio_files/Bachata/Aventura - Me Voy (Live).wav
+data/BallroomData/audio_files/Bachata/Aventura - Mi Corazoncito.wav
+data/BallroomData/audio_files/Bachata/Aventura - Obsesion.wav
+data/BallroomData/audio_files/Bachata/Aventura - Por un Segundo.wav
+data/BallroomData/audio_files/Bachata/Aventura - Un Beso.wav
+data/BallroomData/audio_files/Bachata/Don Omar - Ella Y Yo (Featuring Don Omar).wav
+data/BallroomData/audio_files/Bachata/El Chaval De la Bachata - Donde Estan Esos Amigos.wav
+data/BallroomData/audio_files/Bachata/Hector Acosta El Torito - Me Duele La Cabeza (Album Version).wav
+data/BallroomData/audio_files/Bachata/Hector Acosta El Torito - Me Puedo Matar (Album Version).wav
+data/BallroomData/audio_files/Bachata/Hector Acosta El Torito - Perdóname la Vida.wav
+data/BallroomData/audio_files/Bachata/Hector Acosta El Torito - Sin Perdón.wav
+data/BallroomData/audio_files/Bachata/Juan Luis Guerra - Bachata Rosa.wav
+data/BallroomData/audio_files/Bachata/Los Toros Band - Mi Niña.wav
+data/BallroomData/audio_files/Bachata/Los Toros Band - Quizas Si Quizas No.wav
+data/BallroomData/audio_files/Bachata/Los Toros Band - Si Estuvieras Aquí.wav
+data/BallroomData/audio_files/Bachata/Luis Miguel Del Amargue - De Rodillas Te Pido.wav
+data/BallroomData/audio_files/Bachata/Maná - El verdadero amor perdona (dueto con Prince Royce).wav
+data/BallroomData/audio_files/Bachata/Monchy - Hoja En Blanco.wav
+data/BallroomData/audio_files/Bachata/Monchy - Polos Opuestos.wav
+data/BallroomData/audio_files/Bachata/Monchy - Te Quiero Igual Que Ayer.wav
+data/BallroomData/audio_files/Bachata/Monchy y Alexandra - Dos Locos (Album Version).wav
+data/BallroomData/audio_files/Bachata/Monchy y Alexandra - No Es una Novela.wav
+data/BallroomData/audio_files/Bachata/Monchy y Alexandra - Perdidos.wav
+data/BallroomData/audio_files/Bachata/Prince Royce - Corazón Sin Cara.wav
+data/BallroomData/audio_files/Bachata/Prince Royce - Darte un Beso.wav
+data/BallroomData/audio_files/Bachata/Prince Royce - El Amor Que Perdimos.wav
+data/BallroomData/audio_files/Bachata/Prince Royce - Incondicional.wav
+data/BallroomData/audio_files/Bachata/Prince Royce - Las Cosas Pequeñas.wav
+data/BallroomData/audio_files/Bachata/Prince Royce - Rechazame.wav
+data/BallroomData/audio_files/Bachata/Prince Royce - Stand by Me.wav
+data/BallroomData/audio_files/Bachata/Prince Royce - Te Robaré.wav
+data/BallroomData/audio_files/Bachata/R. Kelly - Shorty (Album Version (Explicit)).wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - Eres Mía.wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - Héroe Favorito.wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - Hilito.wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - Imitadora.wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - La Diabla.wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - Llévame Contigo.wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - Mi Santa (feat. Tomatito).wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - Necio (feat. Carlos Santana).wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - Odio (feat. Drake).wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - Promise (feat. Usher).wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - Propuesta Indecente.wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - Sobredosis (feat. Ozuna).wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - Yo También (feat. Marc Anthony).wav
+data/BallroomData/audio_files/Bachata/Romeo Santos - You.wav
+data/BallroomData/audio_files/Bachata/Toby Love - Tengo un Amor.wav
+data/BallroomData/audio_files/ChaChaCha/09. Santana - Corazon Espinado.flac
+data/BallroomData/audio_files/ChaChaCha/Andy Fortuna - Amor.wav
+data/BallroomData/audio_files/ChaChaCha/Andy Fortuna - Hot Tamale.wav
+data/BallroomData/audio_files/ChaChaCha/Andy Fortuna - New Cha Cha.wav
+data/BallroomData/audio_files/ChaChaCha/Arthur Murray - Clases De Cha Cha Cha (Cha-Cha-Cha Classes).wav
+data/BallroomData/audio_files/ChaChaCha/Avera - Feel the Love.wav
+data/BallroomData/audio_files/ChaChaCha/Ballroom Orchestra - In a Cha Cha Mood.wav
+data/BallroomData/audio_files/ChaChaCha/Blue Angels - Dulce Juan (CCC 31 bpm).wav
+data/BallroomData/audio_files/ChaChaCha/Carlos Campos - El Tiempo Que Te Quede Libre.wav
+data/BallroomData/audio_files/ChaChaCha/Carlos Campos - Param-Pam-Pam.wav
+data/BallroomData/audio_files/ChaChaCha/Cuba Cuba - Borracha.wav
+data/BallroomData/audio_files/ChaChaCha/Dany Brillant - Dans ta chambre.wav
+data/BallroomData/audio_files/ChaChaCha/Dany Brillant - Ne crois pas (Cha cha cha).wav
+data/BallroomData/audio_files/ChaChaCha/Dean Martin - Cha Cha Cha D'Amour (Melodie D'Amour).wav
+data/BallroomData/audio_files/ChaChaCha/Della Reese - Daddy.wav
+data/BallroomData/audio_files/ChaChaCha/Dj Maksy - Dear Mr. President (Cha Cha 31).wav
+data/BallroomData/audio_files/ChaChaCha/Edmundo Ros - Hair.wav
+data/BallroomData/audio_files/ChaChaCha/El Rubio Loco - Cha Charanga.wav
+data/BallroomData/audio_files/ChaChaCha/Fitz And The Tantrums - Dear Mr. President (Live In Chicago).wav
+data/BallroomData/audio_files/ChaChaCha/Genio & Pierrots - Cha cha cha_ Shine _ sunshine day _ l'importante è finire.wav
+data/BallroomData/audio_files/ChaChaCha/Gerli Padar - Creative (Cha Cha).wav
+data/BallroomData/audio_files/ChaChaCha/Jennifer Lopez - Let's Get Loud.wav
+data/BallroomData/audio_files/ChaChaCha/Ken Turner & His Orchestra - Patsy.wav
+data/BallroomData/audio_files/ChaChaCha/Lemon - Latin Lover.wav
+data/BallroomData/audio_files/ChaChaCha/Machito & His Orchestra - Oyéme Mamá.wav
+data/BallroomData/audio_files/ChaChaCha/Mo' Horizons - Cha Cha Cha.wav
+data/BallroomData/audio_files/ChaChaCha/Orchestra Baobab - Caravana.wav
+data/BallroomData/audio_files/ChaChaCha/René Bloch - Wa-Pa-Cha.wav
+data/BallroomData/audio_files/ChaChaCha/Rosemary Clooney - Corazón de Melon \[Watermelon Heart] (Remastered 2002).wav
+data/BallroomData/audio_files/ChaChaCha/Santana - Oye Como Va.wav
+data/BallroomData/audio_files/ChaChaCha/Sebastián Yatra - Falta Amor.wav
+data/BallroomData/audio_files/ChaChaCha/Serge Gainsbourg - Cha cha cha du loup.wav
+data/BallroomData/audio_files/ChaChaCha/Sr Ortegon - Picante.wav
+data/BallroomData/audio_files/ChaChaCha/Studio 36 Band - Cuéntame Que Te Pasó.wav
+data/BallroomData/audio_files/ChaChaCha/The Len Phillips Big Band - Puente at Grossinger’s (Cha Cha Cha).wav
+data/BallroomData/audio_files/ChaChaCha/The Len Phillips Big Band - Sway (Cha Cha Cha) \[feat. Eleanor Keenan].wav
+data/BallroomData/audio_files/ChaChaCha/The New 101 Strings Orchestra - El ratón.wav
+data/BallroomData/audio_files/ChaChaCha/Tito Puente - Cuban Pete.wav
+data/BallroomData/audio_files/ChaChaCha/Tito Puente - Miami Beach Cha Cha Cha.wav
+data/BallroomData/audio_files/ChaChaCha/Tito Puente - Oigan Mi Cha Cha Cha.wav
+data/BallroomData/audio_files/ChaChaCha/Tito Puente - Oye Cómo Va.wav
+data/BallroomData/audio_files/ChaChaCha/Tito Puente - Shing-A Tin Tin.wav
+data/BallroomData/audio_files/ChaChaCha/Tito Rodríguez and His Orchestra - Exodus.wav
+data/BallroomData/audio_files/ChaChaCha/Tony Evans - Cocktails for Two (Cha Cha).wav
+data/BallroomData/audio_files/ChaChaCha/Tony Evans and His Orchestra - Too Marvellous for Words (Cha Cha).wav
+data/BallroomData/audio_files/ChaChaCha/Tony Evans and His Orchestra - Young Girl (Cha Cha).wav
+data/BallroomData/audio_files/ChaChaCha/Touch And Go - Tango In Harlem.wav
+data/BallroomData/audio_files/ChaChaCha/Watazu - Besame Mama.wav
+data/BallroomData/audio_files/ChaChaCha/Watazu - Big Noise (ChaCha).wav
+data/BallroomData/audio_files/ChaChaCha/Watazu - Cheerleader (ChaCha).wav
+data/BallroomData/audio_files/ChaChaCha/Watazu - Oohh Wah Hoo.wav
+data/BallroomData/audio_files/ChaChaCha/Watazu - Sway Dance With Me (ChaCha) (Vocal).wav
+data/BallroomData/audio_files/ChaChaCha/Ленинград - Дикий мужчина.wav
+data/BallroomData/audio_files/Jive/Alesha Dixon - The Boy Does Nothing.wav
+data/BallroomData/audio_files/Jive/Alex Swings Oscar Sings! - Do The Cha Cha Cha.wav
+data/BallroomData/audio_files/Jive/Alexandra Burke - Broken Heels (Single Mix).wav
+data/BallroomData/audio_files/Jive/Andreas Weise - Shine.wav
+data/BallroomData/audio_files/Jive/Andy Fortuna - Little Bitty Pretty One.wav
+data/BallroomData/audio_files/Jive/Avera - Come Along \[Jive - 43BPM].wav
+data/BallroomData/audio_files/Jive/Avera - Mayhem (Jive 43BPM).wav
+data/BallroomData/audio_files/Jive/Avera - Tough Lover.wav
+data/BallroomData/audio_files/Jive/Bette Midler - On A Slow Boat To China (with Barry Manilow) (Album Version).wav
+data/BallroomData/audio_files/Jive/Bretta Cline - Berries for Breakfast.wav
+data/BallroomData/audio_files/Jive/Bruno Mars - Runaway Baby.wav
+data/BallroomData/audio_files/Jive/Buster Poindexter - Hit the Road Jack.wav
+data/BallroomData/audio_files/Jive/Cagey Strings - Long Tall Sally.wav
+data/BallroomData/audio_files/Jive/Cantovano and His Orchestra - Rock Around the Clock.wav
+data/BallroomData/audio_files/Jive/Casey Abrams - Why Don’t You Do Right_.wav
+data/BallroomData/audio_files/Jive/Christina Aguilera - Candyman.wav
+data/BallroomData/audio_files/Jive/Daphne Nisi - Grande così.wav
+data/BallroomData/audio_files/Jive/Dianne Reeves - Fine Brown Frame.wav
+data/BallroomData/audio_files/Jive/DJ Charly Che - Me Gustas Tu Remix.wav
+data/BallroomData/audio_files/Jive/DJ Katch - Would You.wav
+data/BallroomData/audio_files/Jive/Dj Maksy - Cha Cha Cha (Jive 42).wav
+data/BallroomData/audio_files/Jive/Dj Maksy - Get Over It (Jive 42).wav
+data/BallroomData/audio_files/Jive/Dj Maksy - I Love Me (Jive 43BPM).wav
+data/BallroomData/audio_files/Jive/Dj Maksy - On Ira (Jive 43BPM).wav
+data/BallroomData/audio_files/Jive/Dj Maksy - One Kiss (Jive 42).wav
+data/BallroomData/audio_files/Jive/Dj Maksy - Part-Time Lover (Jive 43).wav
+data/BallroomData/audio_files/Jive/Dj Maksy - Shape Of You (Jive 43).wav
+data/BallroomData/audio_files/Jive/Dj Maksy - Trouble with My Baby.wav
+data/BallroomData/audio_files/Jive/DJ Zavodnov - La Grange (Jive 42).wav
+data/BallroomData/audio_files/Jive/Eagles - Get Over It (1999 Remaster).wav
+data/BallroomData/audio_files/Jive/Eclipse - Rockin Robin.wav
+data/BallroomData/audio_files/Jive/Elle King - Ex's & Oh's.wav
+data/BallroomData/audio_files/Jive/Elvis Presley - Hound Dog.wav
+data/BallroomData/audio_files/Jive/Elvis Presley - Stuck On You.wav
+data/BallroomData/audio_files/Jive/Emilie Schiøtt - Give Me a Kiss.wav
+data/BallroomData/audio_files/Jive/Flora Martinez - La Macorina.wav
+data/BallroomData/audio_files/Jive/George Michael - My Baby Just Cares for Me.wav
+data/BallroomData/audio_files/Jive/Gianni Coletti - Like a Virgin (Original Swing Mix).wav
+data/BallroomData/audio_files/Jive/Giò Valeriani - La cuccanella.wav
+data/BallroomData/audio_files/Jive/Jeff Zavac - Hit The Road Jack (feat. The Craetts).wav
+data/BallroomData/audio_files/Jive/Johnny Django - I'm a Man (From _Django Unchained_).wav
+data/BallroomData/audio_files/Jive/Joseph Leo Bwarie - Hey Good Lookin' _ In the Mood.wav
+data/BallroomData/audio_files/Jive/Korotkoff - Blinding Lights (Jive 43BPM).wav
+data/BallroomData/audio_files/Jive/Korotkoff - You Know You Like It (Jive 43BPM).wav
+data/BallroomData/audio_files/Jive/Kurt Edelhagen - Jive - 32 Takte pro Minute - The Hucklebuck.wav
+data/BallroomData/audio_files/Jive/La Lupe - Fever.wav
+data/BallroomData/audio_files/Jive/Ledisi - My Baby Just Cares for Me.wav
+data/BallroomData/audio_files/Jive/LÒNIS - Good to Go (feat. Daphne Willis).wav
+data/BallroomData/audio_files/Jive/Lou Bega - I Got a Girl.wav
+data/BallroomData/audio_files/Jive/Lou Bega - Mambo No. 5 (A Little Bit Of...).wav
+data/BallroomData/audio_files/Jive/Louis Jordan - Choo Choo Ch Boogie.wav
+data/BallroomData/audio_files/Jive/Mambo King - Mambo N. 5.wav
+data/BallroomData/audio_files/Jive/Michael Bublé - Crazy Little Thing Called Love.wav
+data/BallroomData/audio_files/Jive/Michael Jackson - Rockin' Robin.wav
+data/BallroomData/audio_files/Jive/Micky Green - Oh!.wav
+data/BallroomData/audio_files/Jive/Mike Waters - Gambling Man.wav
+data/BallroomData/audio_files/Jive/Millie Jackson - My Man, A Sweet Man.wav
+data/BallroomData/audio_files/Jive/Musique Boutique - Smoke on the Water.wav
+data/BallroomData/audio_files/Jive/New Soul Sensation - She Said.wav
+data/BallroomData/audio_files/Jive/Olly Murs - Dance with Me Tonight.wav
+data/BallroomData/audio_files/Jive/Orchester Werner Tauber - Fine Brown Frame (Original Mix).wav
+data/BallroomData/audio_files/Jive/Peggy Lee - Hallelujah, I Love Him So.wav
+data/BallroomData/audio_files/Jive/Pérez Prado y Su Orquesta - Patricia.wav
+data/BallroomData/audio_files/Jive/Plan B - She Said.wav
+data/BallroomData/audio_files/Jive/Portugal. The Man - Feel It Still.wav
+data/BallroomData/audio_files/Jive/Ray Charles - Hit the Road Jack.wav
+data/BallroomData/audio_files/Jive/RnB DJs - Sweat (Remix).wav
+data/BallroomData/audio_files/Jive/Rod Stewart - Love Me Or Leave Me.wav
+data/BallroomData/audio_files/Jive/Smith & Elms - Johnnie Walker Present's The Madison Time.wav
+data/BallroomData/audio_files/Jive/Sophie Milman - My Baby Just Cares For Me.wav
+data/BallroomData/audio_files/Jive/Stevie Wonder - Faith.wav
+data/BallroomData/audio_files/Jive/Teresa James & The Rhythm Tramps - I Do My Drinkin' on the Weekend.wav
+data/BallroomData/audio_files/Jive/The Baseballs - Love in This Club.wav
+data/BallroomData/audio_files/Jive/The Black Keys - Howlin' for You.wav
+data/BallroomData/audio_files/Jive/The Bristol Suspensions - S Club vs. Steps_ Tragedy _ Don't Stop Movin' _ S Club Party _ One for Sorrow _ Never Had a Dream Come True _ 5, 6, 7, 8 _ Reach.wav
+data/BallroomData/audio_files/Jive/The Clan - Jack Is Back (Radio Cut).wav
+data/BallroomData/audio_files/Jive/The Resentments - I Do My Drinking on the Weekends (Live).wav
+data/BallroomData/audio_files/Jive/The Romantics - What I Like About You.wav
+data/BallroomData/audio_files/Jive/The Silhouettes - Get a Job.wav
+data/BallroomData/audio_files/Jive/The Tractors - Baby Likes To Rock It.wav
+data/BallroomData/audio_files/Jive/The Ultimate Jivers - Jailhouse Rock.wav
+data/BallroomData/audio_files/Jive/Tony Evans - Just a Gigolo (Slow Jive 48bpm).wav
+data/BallroomData/audio_files/Jive/Tony Evans Dancebeat Studio Band - Build Me up Buttercup (Jive).wav
+data/BallroomData/audio_files/Jive/Tony Evans Dancebeat Studio Band - Foot Loose (Jive 43Bpm).wav
+data/BallroomData/audio_files/Jive/Travis Tritt - The Girl's Gone Wild.wav
+data/BallroomData/audio_files/Jive/Vio Friedmann - The Sweet Escape (Jive - 38 T_M).wav
+data/BallroomData/audio_files/Jive/Wham! - Wake Me Up Before You Go-Go.wav
+data/BallroomData/audio_files/Jive/ZZ Top - La Grange (2005 Remaster).wav
+data/BallroomData/audio_files/Quickstep/3 Doors Down - Kryptonite.wav
+data/BallroomData/audio_files/Quickstep/a-ha - Take on Me.wav
+data/BallroomData/audio_files/Quickstep/Amerie - Gotta Work.wav
+data/BallroomData/audio_files/Quickstep/Angela Lansbury - Be Our Guest.wav
+data/BallroomData/audio_files/Quickstep/Ariana Grande - Problem.wav
+data/BallroomData/audio_files/Quickstep/Ariana Grande - Zero To Hero (From _Hercules_).wav
+data/BallroomData/audio_files/Quickstep/Barbra Streisand - Lover, Come Back To Me (Album Version).wav
+data/BallroomData/audio_files/Quickstep/Barry Manilow - Dancin' Fool (Album Version).wav
+data/BallroomData/audio_files/Quickstep/Basement Jaxx - Do Your Thing.wav
+data/BallroomData/audio_files/Quickstep/Berlin Brass Quintet - Puttin‘ on the Ritz.wav
+data/BallroomData/audio_files/Quickstep/Bette Midler - Billy-A-Dick.wav
+data/BallroomData/audio_files/Quickstep/Beyond The Sea - Kevin Spacey - As Long as I'm Singing.wav
+data/BallroomData/audio_files/Quickstep/Big Bad Voodoo Daddy - Jumpin' Jack (Album Version).wav
+data/BallroomData/audio_files/Quickstep/Big Bad Voodoo Daddy - King Of Swing (Album Version).wav
+data/BallroomData/audio_files/Quickstep/Big Bad Voodoo Daddy - Mr. Pinstripe Suit (Album Version).wav
+data/BallroomData/audio_files/Quickstep/Billy Idol - Dancing with Myself (2001 Remaster).wav
+data/BallroomData/audio_files/Quickstep/Billy Joel - Tell Her About It.wav
+data/BallroomData/audio_files/Quickstep/Brian Setzer - Americano _ Brasileiro.wav
+data/BallroomData/audio_files/Quickstep/Brian Setzer - The Dirty Boogie.wav
+data/BallroomData/audio_files/Quickstep/Buddy Greco - Around the World.wav
+data/BallroomData/audio_files/Quickstep/Buddy Greco - Too Darn Hot.wav
+data/BallroomData/audio_files/Quickstep/Buddy Holly - Oh Boy!.wav
+data/BallroomData/audio_files/Quickstep/Carol Welsman - Hey Good Lookin'.wav
+data/BallroomData/audio_files/Quickstep/Cherry Poppin' Daddies - The Ding-Dong Daddy of the D-Car Line.wav
+data/BallroomData/audio_files/Quickstep/Cherry Poppin' Daddies - Zoot Suit Riot.wav
+data/BallroomData/audio_files/Quickstep/Christina Grimmie - Feelin' Good.wav
+data/BallroomData/audio_files/Quickstep/Cole Porter - Anything Goes.wav
+data/BallroomData/audio_files/Quickstep/Cole Porter with Piano - You're The Top - (From _Anything Goes_).wav
+data/BallroomData/audio_files/Quickstep/Delbert McClinton - Giving It Up For Your Love.wav
+data/BallroomData/audio_files/Quickstep/Della Reese - Blue Skies (Remastered 2002).wav
+data/BallroomData/audio_files/Quickstep/Dick Van Dyke - Step In Time (From _Mary Poppins__Soundtrack Version).wav
+data/BallroomData/audio_files/Quickstep/Dolly Parton - 9 to 5.wav
+data/BallroomData/audio_files/Quickstep/Dominik Hauser, Nayanna Holley - _Movin' On Up_(Theme from the TV Series _The Jeffersons_).wav
+data/BallroomData/audio_files/Quickstep/Duke Ellington & His Orchestra - Diga Diga Doo (with The Mills Brothers) (Take A).wav
+data/BallroomData/audio_files/Quickstep/Ella Fitzgerald - I Got Rhythm.wav
+data/BallroomData/audio_files/Quickstep/Elle King - American Girl.wav
+data/BallroomData/audio_files/Quickstep/Elvis Presley - Viva Las Vegas (Remastered).wav
+data/BallroomData/audio_files/Quickstep/Emeli Sandé - Crazy In Love (Kid Koala Version).wav
+data/BallroomData/audio_files/Quickstep/Frank Sinatra - I Get A Kick Out Of You.wav
+data/BallroomData/audio_files/Quickstep/Frank Sinatra - Luck Be A Lady (Album Version).wav
+data/BallroomData/audio_files/Quickstep/Fred Astaire - Puttin' on the Ritz.wav
+data/BallroomData/audio_files/Quickstep/Fred Astaire - Top Hat, White Tie and Tails.wav
+data/BallroomData/audio_files/Quickstep/Geek Music - Bewitched - Main Theme.wav
+data/BallroomData/audio_files/Quickstep/Geek Music - Hey Goldmember (From _Austin Powers in Goldmember_).wav
+data/BallroomData/audio_files/Quickstep/Gene Kelly - Good Morning.wav
+data/BallroomData/audio_files/Quickstep/Gin Wigmore - Man Like That.wav
+data/BallroomData/audio_files/Quickstep/Girls Aloud - Love Machine.wav
+data/BallroomData/audio_files/Quickstep/Good Charlotte - Lifestyles of the Rich & Famous.wav
+data/BallroomData/audio_files/Quickstep/Goodwill - Take You Higher.wav
+data/BallroomData/audio_files/Quickstep/Gretchen Wilson - Redneck Woman.wav
+data/BallroomData/audio_files/Quickstep/Guys and Dolls Ensemble (1992) - Luck Be a Lady.wav
+data/BallroomData/audio_files/Quickstep/Gwen Verdon - Sweet Charity_ If My Friends Could See Me Now.wav
+data/BallroomData/audio_files/Quickstep/Harry Connick, Jr. - We Are In Love (Album Version).wav
+data/BallroomData/audio_files/Quickstep/Helen Shapiro - Walkin' Back to Happiness.wav
+data/BallroomData/audio_files/Quickstep/Iggy Pop - Lust For Life.wav
+data/BallroomData/audio_files/Quickstep/Jackie Wilson - (Your Love Keeps Lifting Me) Higher & Higher.wav
+data/BallroomData/audio_files/Quickstep/James Blunt - Stay the Night.wav
+data/BallroomData/audio_files/Quickstep/Janelle Monáe - Dance Apocalyptic.wav
+data/BallroomData/audio_files/Quickstep/Jessica Simpson - Swing With Me (Album Version).wav
+data/BallroomData/audio_files/Quickstep/Jet - Are You Gonna Be My Girl.wav
+data/BallroomData/audio_files/Quickstep/Joan Jett - Love Is All Around.wav
+data/BallroomData/audio_files/Quickstep/John Travolta - We Go Together (From “Grease”).wav
+data/BallroomData/audio_files/Quickstep/Johnny Cash - I Walk The Line.wav
+data/BallroomData/audio_files/Quickstep/Johnny Cash - Ring of Fire.wav
+data/BallroomData/audio_files/Quickstep/Joshua Bell - Nice Work If You Can Get It.wav
+data/BallroomData/audio_files/Quickstep/Judy Garland - I Got Rhythm.wav
+data/BallroomData/audio_files/Quickstep/Katrina & The Waves - Walking On Sunshine.wav
+data/BallroomData/audio_files/Quickstep/Kenny Loggins - Danger Zone (From _Top Gun_ Original Soundtrack).wav
+data/BallroomData/audio_files/Quickstep/KT Tunstall - Black Horse And The Cherry Tree (Radio Version).wav
+data/BallroomData/audio_files/Quickstep/KT Tunstall - Suddenly I See.wav
+data/BallroomData/audio_files/Quickstep/Les Elgart - Bandstand Boogie.wav
+data/BallroomData/audio_files/Quickstep/Letters To Cleo - I Want You To Want Me.wav
+data/BallroomData/audio_files/Quickstep/Louis Armstrong - It Don't Mean a Thing (If It Ain't Got That Swing) \[1990 Remaster].wav
+data/BallroomData/audio_files/Quickstep/Louis Prima - Five Months, Two Weeks, Two Days (Remastered).wav
+data/BallroomData/audio_files/Quickstep/Louis Prima - That Old Black Magic (Remastered).wav
+data/BallroomData/audio_files/Quickstep/Marilyn Monroe - Diamonds Are a Girl's Best Friend (From _Gentlemen Prefer Blondes_).wav
+data/BallroomData/audio_files/Quickstep/Martha Reeves - (Love Is Like A) Heat Wave.wav
+data/BallroomData/audio_files/Quickstep/Miss Li - My Heart Goes Boom.wav
+data/BallroomData/audio_files/Quickstep/MKTO - Classic.wav
+data/BallroomData/audio_files/Quickstep/Nat King Cole - Let's Face The Music And Dance.wav
+data/BallroomData/audio_files/Quickstep/Nena - 99 Red Balloons (Club Mix).wav
+data/BallroomData/audio_files/Quickstep/Nicola Dawn - Man Wanted.wav
+data/BallroomData/audio_files/Quickstep/Nicole Kidman - Sparkling Diamonds (From _Moulin Rouge_ Soundtrack).wav
+data/BallroomData/audio_files/Quickstep/Noisettes - Don't Give Up.wav
+data/BallroomData/audio_files/Quickstep/Orchestra - Broadway Cast of Chicago The Musical (1997) - Hot Honey Rag.wav
+data/BallroomData/audio_files/Quickstep/Paolo Nutini - Pencil Full of Lead.wav
+data/BallroomData/audio_files/Quickstep/Perez Prado - Mack The Knife - (From The Three Penny Opera_).wav
+data/BallroomData/audio_files/Quickstep/Phil Collins - Two Hearts (2016 Remaster).wav
+data/BallroomData/audio_files/Quickstep/Phil Collins - You Can't Hurry Love (2016 Remaster).wav
+data/BallroomData/audio_files/Quickstep/Phil Harris - The Bare Necessities (From _The Jungle Book_).wav
+data/BallroomData/audio_files/Quickstep/Preservation Hall Jazz Band - That's It!.wav
+data/BallroomData/audio_files/Quickstep/Radiohead - Creep.wav
+data/BallroomData/audio_files/Quickstep/Rascal Flatts - Life is a Highway.wav
+data/BallroomData/audio_files/Quickstep/Renée Zellweger - Nowadays_Hot Honey Rag (Medley Title).wav
+data/BallroomData/audio_files/Quickstep/Robert Johnson - They're Red Hot.wav
+data/BallroomData/audio_files/Quickstep/Robin Williams - Friend Like Me.wav
+data/BallroomData/audio_files/Quickstep/Rochelle Diamante - Queen Bee.wav
+data/BallroomData/audio_files/Quickstep/Royal Crown Revue - Hey Pachuco!.wav
+data/BallroomData/audio_files/Quickstep/Ryan Shaw - I Do The Jerk.wav
+data/BallroomData/audio_files/Quickstep/Sammy Davis Jr. - The Lady Is A Tramp.wav
+data/BallroomData/audio_files/Quickstep/Scott Bradlee's Postmodern Jukebox - Wiggle.wav
+data/BallroomData/audio_files/Quickstep/Selena Gomez - Who Says.wav
+data/BallroomData/audio_files/Quickstep/Silent Movie Orchestra - Peppy & George ( from _The Artist_).wav
+data/BallroomData/audio_files/Quickstep/Simon & Garfunkel - Mrs. Robinson (From _The Graduate_ Soundtrack).wav
+data/BallroomData/audio_files/Quickstep/Squirrel Nut Zippers - Baby Wants A Diamond Ring.wav
+data/BallroomData/audio_files/Quickstep/Stevie Wonder - For Once In My Life.wav
+data/BallroomData/audio_files/Quickstep/Stevie Wonder - Part-Time Lover.wav
+data/BallroomData/audio_files/Quickstep/Stevie Wonder - Signed, Sealed, Delivered (I'm Yours).wav
+data/BallroomData/audio_files/Quickstep/Stevie Wonder - Sir Duke.wav
+data/BallroomData/audio_files/Quickstep/Sweet - Ballroom Blitz.wav
+data/BallroomData/audio_files/Quickstep/The Andrews Sisters - Boogie Woogie Bugle Boy (Remastered).wav
+data/BallroomData/audio_files/Quickstep/The Andrews Sisters - Sing, Sing, Sing (Single Version).wav
+data/BallroomData/audio_files/Quickstep/The Atomic Fireballs - Man with the Hex.wav
+data/BallroomData/audio_files/Quickstep/The Bangles - Walk Like an Egyptian.wav
+data/BallroomData/audio_files/Quickstep/The Baseballs - Umbrella.wav
+data/BallroomData/audio_files/Quickstep/The Blues Brothers - Flip, Flop & Fly (Live).wav
+data/BallroomData/audio_files/Quickstep/The Chemical Brothers - Hey Boy Hey Girl.wav
+data/BallroomData/audio_files/Quickstep/The Cure - Close to Me.wav
+data/BallroomData/audio_files/Quickstep/The Cure - Why Can't I Be You_.wav
+data/BallroomData/audio_files/Quickstep/The Jackson 5 - I Want You Back.wav
+data/BallroomData/audio_files/Quickstep/The Muppets - The Muppet Show Theme.wav
+data/BallroomData/audio_files/Quickstep/The Pointer Sisters - Neutron Dance.wav
+data/BallroomData/audio_files/Quickstep/The Pretenders - Don't Get Me Wrong (2007 Remaster).wav
+data/BallroomData/audio_files/Quickstep/The Rembrandts - I'll Be There for You (Theme From _Friends_).wav
+data/BallroomData/audio_files/Quickstep/The Supremes - You Can't Hurry Love.wav
+data/BallroomData/audio_files/Quickstep/Train - Hey, Soul Sister.wav
+data/BallroomData/audio_files/Quickstep/Wanda Richert - 42nd Street.wav
+data/BallroomData/audio_files/Quickstep/Weezer - (If You're Wondering If I Want You To) I Want You To.wav
+data/BallroomData/audio_files/Quickstep/희자매 - You're The One That I Want from 'Grease'.wav
+data/BallroomData/audio_files/Salsa/3D - My Love Will Return.wav
+data/BallroomData/audio_files/Salsa/Adolescent's Orquesta - Anhelo.wav
+data/BallroomData/audio_files/Salsa/Adolescent's Orquesta - Aquel Lugar.wav
+data/BallroomData/audio_files/Salsa/Adolescent's Orquesta - Persona Ideal (Me Tengo Que Ir).wav
+data/BallroomData/audio_files/Salsa/Adolescent's Orquesta - Virgen.wav
+data/BallroomData/audio_files/Salsa/Africando - Aïcha.wav
+data/BallroomData/audio_files/Salsa/Africando - Am saaxul.wav
+data/BallroomData/audio_files/Salsa/Africando - Betece (feat. Amadou Balake).wav
+data/BallroomData/audio_files/Salsa/Africando - Ntoman (feat. Salif Keïta).wav
+data/BallroomData/audio_files/Salsa/Alejandro Fernández - Nube Viajera.wav
+data/BallroomData/audio_files/Salsa/Alexander Abreu - Tres Días.wav
+data/BallroomData/audio_files/Salsa/Alexander Abreu y Havana D' Primera - Mi Música (Remasterizado).wav
+data/BallroomData/audio_files/Salsa/Andy Montañez y Su Orquesta - Cuando Yo Te Vi.wav
+data/BallroomData/audio_files/Salsa/Angel Canales - Lejos de Ti.wav
+data/BallroomData/audio_files/Salsa/Angel Roque - Huesped.wav
+data/BallroomData/audio_files/Salsa/Ann Reynolds - La Chica del Malecon.wav
+data/BallroomData/audio_files/Salsa/Anthony Cruz - Morena Linda.wav
+data/BallroomData/audio_files/Salsa/Asere - Mercedes.wav
+data/BallroomData/audio_files/Salsa/Avenida B - Guaguanco.wav
+data/BallroomData/audio_files/Salsa/Avenida B - La Rosa de Mi Vida.wav
+data/BallroomData/audio_files/Salsa/Bataklan Orquesta - El Señor de la Melodia.wav
+data/BallroomData/audio_files/Salsa/Bloque 53 - Ay Mi Maria.wav
+data/BallroomData/audio_files/Salsa/Bloque 53 - Tumba Puchunga.wav
+data/BallroomData/audio_files/Salsa/Boogaloo Assassins - Para Mi.wav
+data/BallroomData/audio_files/Salsa/CACHÉ - With You (Contigo).wav
+data/BallroomData/audio_files/Salsa/Calle Real - Ya Lo Se.wav
+data/BallroomData/audio_files/Salsa/Calle Vapor - Idilio.wav
+data/BallroomData/audio_files/Salsa/Calle Vapor - La Moña.wav
+data/BallroomData/audio_files/Salsa/Calle Vapor - La Negra Tomasa.wav
+data/BallroomData/audio_files/Salsa/Calle Vapor - La Tierra del Olvido.wav
+data/BallroomData/audio_files/Salsa/Calle Vapor - Nochecita.wav
+data/BallroomData/audio_files/Salsa/Carlitos Padron - Así Logramos Nuestro Amor.wav
+data/BallroomData/audio_files/Salsa/Carlitos Rey - La Soledad.wav
+data/BallroomData/audio_files/Salsa/Carlitos Rey - Te Voy Hacer el Amor en Sueños.wav
+data/BallroomData/audio_files/Salsa/Carlos D'Castro - Sun Sun Babae.wav
+data/BallroomData/audio_files/Salsa/Carlos Jimenez Mambo Dulcet - Despierta Boricua (Violin Solo) \[feat. Lewis Kahn].wav
+data/BallroomData/audio_files/Salsa/Celia Cruz - La Guagua.wav
+data/BallroomData/audio_files/Salsa/Celia Cruz - La Negra Tiene Tumbao.wav
+data/BallroomData/audio_files/Salsa/Celia Cruz - La Vida Es Un Carnaval.wav
+data/BallroomData/audio_files/Salsa/Cimarrón - Que Manera de Quererte.wav
+data/BallroomData/audio_files/Salsa/Combo 08 - Moliendo Cafe.wav
+data/BallroomData/audio_files/Salsa/Combo Mundial & Gerardo Rosales - Siguelo.wav
+data/BallroomData/audio_files/Salsa/Cuba L.A. - El Dulcerito Llego.wav
+data/BallroomData/audio_files/Salsa/Cuba Libre Son Band - Al Cubano.wav
+data/BallroomData/audio_files/Salsa/Cutufla Septeto - Septeto en Montuno.wav
+data/BallroomData/audio_files/Salsa/D.L.G. - La Quiero A Morir.wav
+data/BallroomData/audio_files/Salsa/Dani J - Miedo.wav
+data/BallroomData/audio_files/Salsa/Dani J - Quédate una Noche Más.wav
+data/BallroomData/audio_files/Salsa/David Cedeño - De Parte De Un Boricua Para Los Colombianos.wav
+data/BallroomData/audio_files/Salsa/David Pabon - Aquel Viejo Motel.wav
+data/BallroomData/audio_files/Salsa/Dayhan Díaz - Chan Chan.wav
+data/BallroomData/audio_files/Salsa/DDLO - El Día Que Llegó El Payaso.wav
+data/BallroomData/audio_files/Salsa/Dimension Latina - Llorarás.wav
+data/BallroomData/audio_files/Salsa/DJ Fabrizio Zoro - Cienfuegos.wav
+data/BallroomData/audio_files/Salsa/DJ Henrix - Flamambo (DJ Miss Maya Edit).wav
+data/BallroomData/audio_files/Salsa/DJ Henrix - Mambo & Love.wav
+data/BallroomData/audio_files/Salsa/DJ Henrix - Mambo Rhapsody.wav
+data/BallroomData/audio_files/Salsa/DJ Henrix - Shades of Mambo.wav
+data/BallroomData/audio_files/Salsa/Dj Ricky Campanelli - Buscando la Verdad (feat. Jimmy Bosch).wav
+data/BallroomData/audio_files/Salsa/Dj Ricky Campanelli - Nos Curamos Con la Rumba.wav
+data/BallroomData/audio_files/Salsa/Eddie Palmieri - Sun Sun Babaé.wav
+data/BallroomData/audio_files/Salsa/Eddie Santiago - Que Locura Enamorarme De Ti.wav
+data/BallroomData/audio_files/Salsa/Eduardo Moreno & Okocán - Cuando Bailas.wav
+data/BallroomData/audio_files/Salsa/Eduardo Moreno & Okocán - Lo Más Bello Es Lo Más Simple.wav
+data/BallroomData/audio_files/Salsa/El Gran Combo - Me Liberé.wav
+data/BallroomData/audio_files/Salsa/El Timba - Danse Danse Danse (Original Edit).wav
+data/BallroomData/audio_files/Salsa/El Timba - Hermano.wav
+data/BallroomData/audio_files/Salsa/El Timba, Fabio Gianni - Linda Mujer.wav
+data/BallroomData/audio_files/Salsa/Elito Revé y su Charangón - La Ruñidera (feat. Pablo Milanés).wav
+data/BallroomData/audio_files/Salsa/Fabio Gianni - Bebo.wav
+data/BallroomData/audio_files/Salsa/Fania All Stars - Allegria.wav
+data/BallroomData/audio_files/Salsa/Frankie Negron - Comerte a Besos (Salsa Version).wav
+data/BallroomData/audio_files/Salsa/Frankie Ruiz - La Rueda.wav
+data/BallroomData/audio_files/Salsa/Frankie Ruiz - Tú Con Él.wav
+data/BallroomData/audio_files/Salsa/Fresto Music - Me Hace Daño Verte (Remix).wav
+data/BallroomData/audio_files/Salsa/Gerardo Rosales - Cachandera & Singapore Vibes.wav
+data/BallroomData/audio_files/Salsa/Gerardo Rosales - Mariage D'amour.wav
+data/BallroomData/audio_files/Salsa/Gia Fu - Canton Mambo.wav
+data/BallroomData/audio_files/Salsa/Gilberto Santa Rosa - Almas Gemelas.wav
+data/BallroomData/audio_files/Salsa/Gilberto Santa Rosa - Conciencia.wav
+data/BallroomData/audio_files/Salsa/Gilberto Santa Rosa - Conteo Regresivo (Salsa Version).wav
+data/BallroomData/audio_files/Salsa/Gilberto Santa Rosa - Perdóname.wav
+data/BallroomData/audio_files/Salsa/Gilberto Santa Rosa - Que Alguien Me Diga.wav
+data/BallroomData/audio_files/Salsa/Gilberto Santa Rosa - Títere.wav
+data/BallroomData/audio_files/Salsa/Grupo Caneo - Qué Haré Sin Ti.wav
+data/BallroomData/audio_files/Salsa/Grupo Chango - Como Un Loco.wav
+data/BallroomData/audio_files/Salsa/Grupo Controversia - Almas Gemelas.wav
+data/BallroomData/audio_files/Salsa/Grupo Latin Vibe - La Llave.wav
+data/BallroomData/audio_files/Salsa/Grupo Los Jumaguas - Salsa Con Ashé.wav
+data/BallroomData/audio_files/Salsa/Grupo Niche - Gotas De Lluvia.wav
+data/BallroomData/audio_files/Salsa/Grupo Niche - Miserable (Album Version).wav
+data/BallroomData/audio_files/Salsa/Grupo Polo Montañes - Un Sueño Y Nada Mas.wav
+data/BallroomData/audio_files/Salsa/Grupo Polo Montañes - Yo Te Hice Mujer.wav
+data/BallroomData/audio_files/Salsa/Guaco - Las Caraqueñas.wav
+data/BallroomData/audio_files/Salsa/Guayacán Orquesta - Ay Amor, Cuando Hablan las Miradas.wav
+data/BallroomData/audio_files/Salsa/Guayacán Orquesta - Bueno y Más - Carro de Fuego.wav
+data/BallroomData/audio_files/Salsa/Habana Con Kola - La Tigueresa.wav
+data/BallroomData/audio_files/Salsa/Habana Con Kola - Vente Negra.wav
+data/BallroomData/audio_files/Salsa/Héctor Lavoe - Isla Del Encanto.wav
+data/BallroomData/audio_files/Salsa/Hector Lavoe - Te Conozco.wav
+data/BallroomData/audio_files/Salsa/Hector Lavoe - Triste Y Vacía.wav
+data/BallroomData/audio_files/Salsa/Henry Fiol - Ahora Me Da Pena.wav
+data/BallroomData/audio_files/Salsa/India - Ese Hombre.wav
+data/BallroomData/audio_files/Salsa/India - Turn off the Lights.wav
+data/BallroomData/audio_files/Salsa/India - Vivir Lo Nuestro.wav
+data/BallroomData/audio_files/Salsa/Ire Oyale Sextet - La Esencia del Guaguanco'.wav
+data/BallroomData/audio_files/Salsa/Issac Delgado - No Vale La Pena (Album Version).wav
+data/BallroomData/audio_files/Salsa/Jaime Rovira - Salsa.wav
+data/BallroomData/audio_files/Salsa/Jan Reijnders - For the Love of a Princess.wav
+data/BallroomData/audio_files/Salsa/Jan Reijnders - La Flecha y Mi Corazón.wav
+data/BallroomData/audio_files/Salsa/Jan Reijnders - Porque Te Amo.wav
+data/BallroomData/audio_files/Salsa/Jan Reijnders - Sueño.wav
+data/BallroomData/audio_files/Salsa/Jan Reijnders - Summer Love.wav
+data/BallroomData/audio_files/Salsa/Javier Vázquez - La China De Mi Barrio.wav
+data/BallroomData/audio_files/Salsa/Javier Vázquez - Se Formó La Rumbantela.wav
+data/BallroomData/audio_files/Salsa/Jimmy Bosch - Otra Oportunidad.wav
+data/BallroomData/audio_files/Salsa/Joe Arroyo - En Barranquilla Me Quedo.wav
+data/BallroomData/audio_files/Salsa/Joe Arroyo - Rebelión.wav
+data/BallroomData/audio_files/Salsa/Joey Montana - Cali Pachanguero.wav
+data/BallroomData/audio_files/Salsa/Jose Mangual, Jr. - Que Lo Diga El Tiempo.wav
+data/BallroomData/audio_files/Salsa/Jose Mangual, Jr. - Sarabanda.wav
+data/BallroomData/audio_files/Salsa/Juan Formell - Esto te pone la cabeza mala.wav
+data/BallroomData/audio_files/Salsa/Juan Formell - Por Encima del Nivel (Remasterizado).wav
+data/BallroomData/audio_files/Salsa/Juan Padin - Borinzuela.wav
+data/BallroomData/audio_files/Salsa/Kako Y Su Orquesta - La Cumbita.wav
+data/BallroomData/audio_files/Salsa/Kevin Davis - I Like to Mambo.wav
+data/BallroomData/audio_files/Salsa/Kevin Davis - Time To Spend.wav
+data/BallroomData/audio_files/Salsa/La 6ta Formula - Mis Versos De Amor.wav
+data/BallroomData/audio_files/Salsa/La 6ta Formula - Songosorongo.wav
+data/BallroomData/audio_files/Salsa/La Banda Del Merengue - Anoche Sone Contigo - K. Del Mambo.wav
+data/BallroomData/audio_files/Salsa/LA ETERNA - De la Montaña.wav
+data/BallroomData/audio_files/Salsa/La Excelencia - Salsa Na' Ma.wav
+data/BallroomData/audio_files/Salsa/La Maxima 79 - Iglesia Rumbera.wav
+data/BallroomData/audio_files/Salsa/La Maxima 79 - La Gripe.wav
+data/BallroomData/audio_files/Salsa/La Maxima 79 - No Sirvo Pa' Queso.wav
+data/BallroomData/audio_files/Salsa/La Maxima 79 - Nunca Muere el Guaguancò.wav
+data/BallroomData/audio_files/Salsa/La Maxima 79 - Pobrecita.wav
+data/BallroomData/audio_files/Salsa/La Maxima 79 - Singapore Vibes.wav
+data/BallroomData/audio_files/Salsa/La Maxima 79 - World Stars of Salsa.wav
+data/BallroomData/audio_files/Salsa/La Misma Gente - Hasta Que Llegaste Tu.wav
+data/BallroomData/audio_files/Salsa/La Misma Gente - Llevao.wav
+data/BallroomData/audio_files/Salsa/La Son Charanga - Salsa y Charanga.wav
+data/BallroomData/audio_files/Salsa/La Son Charanga - Vamonos Pa' Senegal.wav
+data/BallroomData/audio_files/Salsa/LA SONORA SANTANERA - Ay Cosita Linda (feat. Willie González).wav
+data/BallroomData/audio_files/Salsa/LA-33 - La-33.wav
+data/BallroomData/audio_files/Salsa/Laito y Su Sonora - Idilio.wav
+data/BallroomData/audio_files/Salsa/Lalo Rodriguez - Ven Devorame Otra Vez (Album Version).wav
+data/BallroomData/audio_files/Salsa/Lebron Brothers - Diez Lágrimas.wav
+data/BallroomData/audio_files/Salsa/Lebron Brothers - El Balcón Aquel.wav
+data/BallroomData/audio_files/Salsa/Lebrón Brothers - Qué Pena.wav
+data/BallroomData/audio_files/Salsa/Leonardo Garcia - Shape of My Heart.wav
+data/BallroomData/audio_files/Salsa/Leoni Torres - Me Quedo Contigo.wav
+data/BallroomData/audio_files/Salsa/Leoni Torres - Toda Una Vida.wav
+data/BallroomData/audio_files/Salsa/Leoni Torres con Kelvis Ochoa y Alexander Abreu - Es Tu Mirada (with Kelvis Ochoa & Alexander Abreu) (Remasterizado).wav
+data/BallroomData/audio_files/Salsa/Liuba María Hevia - Orden del Día.wav
+data/BallroomData/audio_files/Salsa/Lluvia y Sus Soneros - Sandra Mora.wav
+data/BallroomData/audio_files/Salsa/Loca Latina - Borinquen Tiene Montuno.wav
+data/BallroomData/audio_files/Salsa/Loca Latina - La Locura Griega (Instrumental).wav
+data/BallroomData/audio_files/Salsa/Los Alfa 8 - Frío en Mí.wav
+data/BallroomData/audio_files/Salsa/Los Hermanos Moreno - Por Alguien Como Tu.wav
+data/BallroomData/audio_files/Salsa/Los Hermanos Moreno - Tu Mamá No Quiso.wav
+data/BallroomData/audio_files/Salsa/Los Ocho De Colombia - Dilema.wav
+data/BallroomData/audio_files/Salsa/Los Satelites - El Borracho.wav
+data/BallroomData/audio_files/Salsa/Los Satelites - Pensando En Ti.wav
+data/BallroomData/audio_files/Salsa/Los Titanes - Tu la Pagarás.wav
+data/BallroomData/audio_files/Salsa/Louie Ramirez - Feo Pero Sabroso.wav
+data/BallroomData/audio_files/Salsa/Louie Ramirez - Ray de La Paz - Lluvia.wav
+data/BallroomData/audio_files/Salsa/Louie Ramirez And His Conjunto Chango - Chin Chon Chow.wav
+data/BallroomData/audio_files/Salsa/Luis Enrique - Yo No Sé Mañana.wav
+data/BallroomData/audio_files/Salsa/Luz Dary - Para Mi Pueblo.wav
+data/BallroomData/audio_files/Salsa/Mahogany - Chan chan.wav
+data/BallroomData/audio_files/Salsa/Manuel gonzalez - Stair Way to Heaven.wav
+data/BallroomData/audio_files/Salsa/Manuel Loco Valdez - Roberto Revólver.wav
+data/BallroomData/audio_files/Salsa/Manuela y la Mayor Salsa - Analicemos Nuestro Amor.wav
+data/BallroomData/audio_files/Salsa/Marc Anthony - Ahora Quien (Salsa Version).wav
+data/BallroomData/audio_files/Salsa/Marc Anthony - Amigo (Salsa Version).wav
+data/BallroomData/audio_files/Salsa/Marc Anthony - Cautivo de Este Amor.wav
+data/BallroomData/audio_files/Salsa/Marc Anthony - Contra La Corriente.wav
+data/BallroomData/audio_files/Salsa/Marc Anthony - Flor Pálida.wav
+data/BallroomData/audio_files/Salsa/Marc Anthony - No Sabes Como Duele.wav
+data/BallroomData/audio_files/Salsa/Marc Anthony - Tu Amor Me Hace Bien (Salsa Version).wav
+data/BallroomData/audio_files/Salsa/Marc Anthony - Valió la Pena (Salsa Version).wav
+data/BallroomData/audio_files/Salsa/Marc Anthony - Vivir Mi Vida.wav
+data/BallroomData/audio_files/Salsa/Marka Registrada MKR - Perdoname (Salsa Version).wav
+data/BallroomData/audio_files/Salsa/Massimo Scalici - You.wav
+data/BallroomData/audio_files/Salsa/Mercadonegro - La Malanga.wav
+data/BallroomData/audio_files/Salsa/Mickey Taveras - Corazón Partío.wav
+data/BallroomData/audio_files/Salsa/Miguel Enriquez - Abre Que Voy.wav
+data/BallroomData/audio_files/Salsa/Mikata - Mayeya.wav
+data/BallroomData/audio_files/Salsa/New Swing Sextet - El Tiroteo.wav
+data/BallroomData/audio_files/Salsa/New Swing Sextet - My Favorite Things.wav
+data/BallroomData/audio_files/Salsa/Niño Torrente and Son de Hoy - Compasión.wav
+data/BallroomData/audio_files/Salsa/Noche Caliente - La Gata Bajo La Lluvia.wav
+data/BallroomData/audio_files/Salsa/Orquesta La Libertad - Te Vas Acordar de Mi.wav
+data/BallroomData/audio_files/Salsa/Orquesta La Palabra - Lady.wav
+data/BallroomData/audio_files/Salsa/Orquesta Son Colón - Lluvia.wav
+data/BallroomData/audio_files/Salsa/Orquesta Yare - No Se Muere Na.wav
+data/BallroomData/audio_files/Salsa/Orquesta Yare - Testamento.wav
+data/BallroomData/audio_files/Salsa/Oscar D'León - Llorarás.wav
+data/BallroomData/audio_files/Salsa/Oscar D'León - Mira Pa' Ahí.wav
+data/BallroomData/audio_files/Salsa/Oscar D'León - Volver A Verte (Album Version).wav
+data/BallroomData/audio_files/Salsa/Paky Madarena - Mi Timbaton.wav
+data/BallroomData/audio_files/Salsa/Pink Martini - No hay problema.wav
+data/BallroomData/audio_files/Salsa/Plena 79 - Marcando La Distancia, medley 2ª parte (feat. Alain Pérez).wav
+data/BallroomData/audio_files/Salsa/Poderosa Latin Orchestra - Quiero Bailar.wav
+data/BallroomData/audio_files/Salsa/Poncho Sanchez - Guaripumpe.wav
+data/BallroomData/audio_files/Salsa/Ramin Djawadi - Nothing Else Matters.wav
+data/BallroomData/audio_files/Salsa/Raulin Rosendo - Una Copa de Vino _ Lady Laura _ Llego la Ley.wav
+data/BallroomData/audio_files/Salsa/Ray Barretto - Acid.wav
+data/BallroomData/audio_files/Salsa/Ray Barretto - Guararé.wav
+data/BallroomData/audio_files/Salsa/Rey Ruiz - Desde Que No Estas (En Vivo).wav
+data/BallroomData/audio_files/Salsa/Rey Ruiz - Mi Media Mitad.wav
+data/BallroomData/audio_files/Salsa/Rey Ruiz - No Me Acostumbro.wav
+data/BallroomData/audio_files/Salsa/Ricardo _Richie_ Ray - Agúzate.wav
+data/BallroomData/audio_files/Salsa/Richie Valdés - Apuesta Por Mi.wav
+data/BallroomData/audio_files/Salsa/Rikoson Orquesta - Caina.wav
+data/BallroomData/audio_files/Salsa/Rubén Blades - Amor y Control.wav
+data/BallroomData/audio_files/Salsa/Sanmera - Fragilidad.wav
+data/BallroomData/audio_files/Salsa/Santy Montega - Guaguancó Zaragoza.wav
+data/BallroomData/audio_files/Salsa/Septeto Nacional Ignacio Piñeiro - Mujer Celosa.wav
+data/BallroomData/audio_files/Salsa/Son Latino De Cristhian Flores - Por Eso Está Conmigo (En Vivo).wav
+data/BallroomData/audio_files/Salsa/The Juju Orchestra - This Is Not A Tango.wav
+data/BallroomData/audio_files/Salsa/Tito Nieves - Almohada.wav
+data/BallroomData/audio_files/Salsa/Tito Nieves - De Mí Enamórate.wav
+data/BallroomData/audio_files/Salsa/Tito Nieves - Fabricando Fantasías (Salsa Version).wav
+data/BallroomData/audio_files/Salsa/Tito Nieves - La Salsa Vive.wav
+data/BallroomData/audio_files/Salsa/Tito Nieves - Ya No Queda Nada.wav
+data/BallroomData/audio_files/Salsa/Tito Puente - Hong Kong Mambo.wav
+data/BallroomData/audio_files/Salsa/Tito Puente - Oye Cómo Va.wav
+data/BallroomData/audio_files/Salsa/Tony Vega - Aparentemente.wav
+data/BallroomData/audio_files/Salsa/Tony Vega - Ella Es.wav
+data/BallroomData/audio_files/Salsa/Tony Vega - Una Amable Aventura.wav
+data/BallroomData/audio_files/Salsa/Tromboranga - Ah Caraj (Aquí Que Pasó).wav
+data/BallroomData/audio_files/Salsa/Tromboranga - El Mundo al Reves.wav
+data/BallroomData/audio_files/Salsa/Una Mas Trio - Latin Brother.wav
+data/BallroomData/audio_files/Salsa/Una Mas Trio - Son Montuno.wav
+data/BallroomData/audio_files/Salsa/Vibrasón - No Te Me Escondas.wav
+data/BallroomData/audio_files/Salsa/Victor Manuelle - Apiádate de Mi.wav
+data/BallroomData/audio_files/Salsa/Victor Manuelle - Dile A Ella.wav
+data/BallroomData/audio_files/Salsa/Victor Manuelle - He Tratado.wav
+data/BallroomData/audio_files/Salsa/Victor Manuelle - Tengo Ganas.wav
+data/BallroomData/audio_files/Salsa/Vitão - Flores.wav
+data/BallroomData/audio_files/Salsa/Willie Colón - La Murga.wav
+data/BallroomData/audio_files/Salsa/Willie Gonzalez - Quiero Morir En Tu Piel.wav
+data/BallroomData/audio_files/Salsa/Willie Rosario - A Maina.wav
+data/BallroomData/audio_files/Salsa/Wilson Acevedo - Yo Soy la Banda.wav
+data/BallroomData/audio_files/Salsa/YenJuan - Señora.wav
+data/BallroomData/audio_files/Salsa/Yuniel Jimenez - La Malicia.wav
+data/BallroomData/audio_files/Salsa/ZAPEROKO La Resistencia Salsera del Callao - Mala Mujer.wav
+data/BallroomData/audio_files/Samba/Alegra - Me Enamoré.wav
+data/BallroomData/audio_files/Samba/Andy Fortuna - Spice up Your Life.wav
+data/BallroomData/audio_files/Samba/Avera - Bumaye (Samba_ 51BPM).wav
+data/BallroomData/audio_files/Samba/Avera - El Mismo Sol \[Samba - 51BPM].wav
+data/BallroomData/audio_files/Samba/Avera - La Gozadera \[Samba - 51BPM].wav
+data/BallroomData/audio_files/Samba/Avera - Ni Tù Ni Yo (Samba 50BPM).wav
+data/BallroomData/audio_files/Samba/Avera - Taboo (Lambada) (Samba 50BPM).wav
+data/BallroomData/audio_files/Samba/Becky G - MALA SANTA.wav
+data/BallroomData/audio_files/Samba/Bellini - Tic Tic Tac.wav
+data/BallroomData/audio_files/Samba/Dj Maksy - Cheap Thrills (Samba 51BPM).wav
+data/BallroomData/audio_files/Samba/Dj Maksy - Destination Musica (Samba_ 51BPM).wav
+data/BallroomData/audio_files/Samba/Dj Maksy - Englishman In New York.wav
+data/BallroomData/audio_files/Samba/Dj Maksy - La Colegiala (Samba 51BPM).wav
+data/BallroomData/audio_files/Samba/Dj Maksy - Lean On \[Samba - 51BPM].wav
+data/BallroomData/audio_files/Samba/Dj Maksy - Sax of Soul (Samba_ 51BPM).wav
+data/BallroomData/audio_files/Samba/Enrique Iglesias - EL BAÑO (feat. Bad Bunny).wav
+data/BallroomData/audio_files/Samba/Fly Project - Toca Toca (Radio Edit).wav
+data/BallroomData/audio_files/Samba/Gigi D'Alessio - Domani vedrai (feat. Gigi).wav
+data/BallroomData/audio_files/Samba/GIMS - Hola Señorita.wav
+data/BallroomData/audio_files/Samba/Gotan Project - Arrabal.wav
+data/BallroomData/audio_files/Samba/J Balvin - Mi Gente.wav
+data/BallroomData/audio_files/Samba/Jason Derulo - Coño.wav
+data/BallroomData/audio_files/Samba/Johny M - Give You Please (Rework) \[Sb 51BPM].wav
+data/BallroomData/audio_files/Samba/Johny M - Party (Sb 51BPM).wav
+data/BallroomData/audio_files/Samba/Kaoma - Banto.wav
+data/BallroomData/audio_files/Samba/Korotkoff - Lost On You (Samba 51BPM).wav
+data/BallroomData/audio_files/Samba/Lele Pons - Se Te Nota.wav
+data/BallroomData/audio_files/Samba/Lethal Bizzle - Fester Skank.wav
+data/BallroomData/audio_files/Samba/Maluma - Corazón (feat. Nego do Borel).wav
+data/BallroomData/audio_files/Samba/Mohombi - Bumpy Ride.wav
+data/BallroomData/audio_files/Samba/Neri Per Caso - 'A città 'e Pulecenella.wav
+data/BallroomData/audio_files/Samba/Raymix - Tú Y Yo.wav
+data/BallroomData/audio_files/Samba/Ricky Martin - Cántalo.wav
+data/BallroomData/audio_files/Samba/Ricky Martin - Dame Más (Loaded) (Spanish Edit).wav
+data/BallroomData/audio_files/Samba/Ricky Martin - María (Pablo Flores Spanglish Radio Edit).wav
+data/BallroomData/audio_files/Samba/Ricky Martin - Vente Pa' Ca (feat. Maluma).wav
+data/BallroomData/audio_files/Samba/Sak Noel - Trumpets (feat. Sean Paul).wav
+data/BallroomData/audio_files/Samba/Sak Noel - Trumpets (Radio Mix).wav
+data/BallroomData/audio_files/Samba/Sean Paul - Contra La Pared.wav
+data/BallroomData/audio_files/Samba/Sean Paul - Mad Love.wav
+data/BallroomData/audio_files/Samba/Sean Paul - No Lie.wav
+data/BallroomData/audio_files/Samba/Sofía Reyes - R.I.P. (feat. Rita Ora & Anitta).wav
+data/BallroomData/audio_files/Samba/Soha - Mil pasos (feat. Antoine Essertier).wav
+data/BallroomData/audio_files/Samba/Static & Ben El - Further Up (Na, Na, Na, Na, Na).wav
+data/BallroomData/audio_files/Samba/Steve Aoki - Maldad.wav
+data/BallroomData/audio_files/Samba/Tesher - Jalebi Baby.wav
+data/BallroomData/audio_files/Samba/Watazu - Jao Geralderry (Samba 51BPM).wav
+data/BallroomData/audio_files/Samba/Willy William - Ego (Radio Edit).wav
+data/BallroomData/audio_files/Samba/Zion & Lennox - Yo Voy.wav
+data/BallroomData/audio_files/Samba/Zoey & Aloé - Rescue Me.wav
+data/BallroomData/audio_files/Tango/Accordion Café Trio - Indifference.wav
+data/BallroomData/audio_files/Tango/Alison Balsom - Libertango (Orch. Milone).wav
+data/BallroomData/audio_files/Tango/Alper Tuzcu - Milagro.wav
+data/BallroomData/audio_files/Tango/Alper Tuzcu - Recuerdo de Jacarandas.wav
+data/BallroomData/audio_files/Tango/Antonio Carlos Jobim - The Girl From Ipanema.wav
+data/BallroomData/audio_files/Tango/Athens Symphony Orchestra - Tango.wav
+data/BallroomData/audio_files/Tango/Cesária Evora - Besame Mucho (Bonus Track- Great Expectations OST).wav
+data/BallroomData/audio_files/Tango/Charles Aznavour - La bohème.wav
+data/BallroomData/audio_files/Tango/Claude François - Comme d'habitude.wav
+data/BallroomData/audio_files/Tango/Dalida - Le temps des fleurs.wav
+data/BallroomData/audio_files/Tango/Dalida - Paroles… paroles….wav
+data/BallroomData/audio_files/Tango/Daniel Colin - Ombrages.wav
+data/BallroomData/audio_files/Tango/Édith Piaf - La Foule.wav
+data/BallroomData/audio_files/Tango/Édith Piaf - La Valse de l'amour.wav
+data/BallroomData/audio_files/Tango/Édith Piaf - Padam padam.wav
+data/BallroomData/audio_files/Tango/Enrico Macias - Adieu mon pays.wav
+data/BallroomData/audio_files/Tango/Enrico Macias - El porompompero.wav
+data/BallroomData/audio_files/Tango/Enrico Macias - L'Amour c'est pour rien.wav
+data/BallroomData/audio_files/Tango/Enrico Macias - Solenzara.wav
+data/BallroomData/audio_files/Tango/Gidon Kremer - Oblivion.wav
+data/BallroomData/audio_files/Tango/Gilbert Becaud - Je reviens te chercher.wav
+data/BallroomData/audio_files/Tango/Henri Salvador - Petite fleur.wav
+data/BallroomData/audio_files/Tango/Itzhak Perlman - Scent of a Woman_ Tango (Por Una Cabeza).wav
+data/BallroomData/audio_files/Tango/Jacques Brel - Amsterdam (Live, Olympia _ 1964).wav
+data/BallroomData/audio_files/Tango/Jacques Brel - Ne me quitte pas (Ré-enregistrement 1972).wav
+data/BallroomData/audio_files/Tango/Jacques Brel - Vesoul.wav
+data/BallroomData/audio_files/Tango/James Last - Last_ The Lonely Shepherd.wav
+data/BallroomData/audio_files/Tango/Jean Gabin - Maintenant je sais (Version Originale).wav
+data/BallroomData/audio_files/Tango/Jean-Michel Blais - Blais_ Budapest.wav
+data/BallroomData/audio_files/Tango/Joaquin Phoenix - If You Go Away (Music From The Motion Picture).wav
+data/BallroomData/audio_files/Tango/Juan Carlos Caceres - Tango Negro.wav
+data/BallroomData/audio_files/Tango/Juliette Gréco - Sous le ciel de Paris.wav
+data/BallroomData/audio_files/Tango/Katia Guerreiro - 9 Amores.wav
+data/BallroomData/audio_files/Tango/Keren Ann - Jardin d'hiver.wav
+data/BallroomData/audio_files/Tango/Munich Piano Trio - Libertango (Arr. I. Nakayama for piano trio).wav
+data/BallroomData/audio_files/Tango/Pauline Croze - La chanson d'Orphée (Manha Do Carnaval).wav
+data/BallroomData/audio_files/Tango/Ron Carter - Tango pour Claude (Live).wav
+data/BallroomData/audio_files/Tango/Saint-Preux - Concerto pour une voix.wav
+data/BallroomData/audio_files/Tango/Salvatore Adamo - La nuit.wav
+data/BallroomData/audio_files/Tango/Salvatore Adamo - Tombe la neige.wav
+data/BallroomData/audio_files/Tango/Sidney Bechet - Petite Fleur.wav
+data/BallroomData/audio_files/Tango/Sophie Milman - Ochi Chernye (Dark Eyes).wav
+data/BallroomData/audio_files/Tango/Tango Argentino - La Cumparsita.wav
+data/BallroomData/audio_files/Tango/Tango Project - Por Una Cabeza.wav
+data/BallroomData/audio_files/Tango/Yves Montand - Sous le ciel de Paris.wav
+data/BallroomData/audio_files/VienneseWaltz/Academy of St Martin in the Fields - Dvořák_ Serenade for Strings, Op. 22, B. 52_ II. Tempo di valse.wav
+data/BallroomData/audio_files/VienneseWaltz/Amethyst Argentum - Through the Rain.wav
+data/BallroomData/audio_files/VienneseWaltz/Annie Lennox - I Put A Spell On You (Fifty Shades of Grey) (From _Fifty Shades Of Grey_ Soundtrack).wav
+data/BallroomData/audio_files/VienneseWaltz/Avera - All I Need (Viennese Waltz_ 59BPM).wav
+data/BallroomData/audio_files/VienneseWaltz/Avera - Get Lucky (Viennese Waltz_ 59BPM).wav
+data/BallroomData/audio_files/VienneseWaltz/Avera - I'm Done (Viennese Waltz_ 59BPM).wav
+data/BallroomData/audio_files/VienneseWaltz/Avera - You Don't Own Me (Viennese Waltz_ 59BPM).wav
+data/BallroomData/audio_files/VienneseWaltz/Billy Vaughn - Theme From A Summer Place.wav
+data/BallroomData/audio_files/VienneseWaltz/Calum Scott - You Are The Reason (Duet Version).wav
+data/BallroomData/audio_files/VienneseWaltz/Christina Perri - a thousand years.wav
+data/BallroomData/audio_files/VienneseWaltz/Dj Maksy - Colourblind (Viennese Waltz 59).wav
+data/BallroomData/audio_files/VienneseWaltz/Dj Maksy - Comme Des Enfants (Viennese Waltz_ 59BPM).wav
+data/BallroomData/audio_files/VienneseWaltz/Dj Maksy - Crazy In Love (Viennese Waltz_ 59BPM).wav
+data/BallroomData/audio_files/VienneseWaltz/Dj Maksy - Glimpse of Us (Viennese Waltz 59).wav
+data/BallroomData/audio_files/VienneseWaltz/Dj Maksy - Idea 10 (Viennese Waltz 59).wav
+data/BallroomData/audio_files/VienneseWaltz/Dj Maksy - Le Petite Mort (Viennese Waltz_ 59BPM).wav
+data/BallroomData/audio_files/VienneseWaltz/Dj Maksy - Rue des trois frères (Viennese Waltz 58).wav
+data/BallroomData/audio_files/VienneseWaltz/Dj Maksy - Tightrope (From_ The Greatest Showman) \[Viennese Waltz_ 59BPM].wav
+data/BallroomData/audio_files/VienneseWaltz/Dj Maksy - Wicked Game (Viennese Waltz) \[59BPM].wav
+data/BallroomData/audio_files/VienneseWaltz/DJ Zavodnov - 365 Days (from '365 Days This Day') (Viennese Waltz 59).wav
+data/BallroomData/audio_files/VienneseWaltz/DJ Zavodnov - Love Tonight (Rock Version) (Viennese Waltz 59).wav
+data/BallroomData/audio_files/VienneseWaltz/Enya - Caribbean Blue (2009 Remaster).wav
+data/BallroomData/audio_files/VienneseWaltz/Fusione Elevata - La Fata.wav
+data/BallroomData/audio_files/VienneseWaltz/Gerli Padar - She's a Rainbow (Viennese Waltz).wav
+data/BallroomData/audio_files/VienneseWaltz/Gilead - Sons of Skyrim.wav
+data/BallroomData/audio_files/VienneseWaltz/Hantos Djay - Perfect (Viennese Valtz).wav
+data/BallroomData/audio_files/VienneseWaltz/Helen Jane Long - To Dust.wav
+data/BallroomData/audio_files/VienneseWaltz/Imagine Dragons - Next To Me.wav
+data/BallroomData/audio_files/VienneseWaltz/Ji Pyeong Kwon - Waltz of Destiny.wav
+data/BallroomData/audio_files/VienneseWaltz/John Lennon - Happy Xmas (War Is Over).wav
+data/BallroomData/audio_files/VienneseWaltz/Klaus Hallen Tanzorchester - 7 Rings.wav
+data/BallroomData/audio_files/VienneseWaltz/Klaus Hallen Tanzorchester - Avenir.wav
+data/BallroomData/audio_files/VienneseWaltz/Klaus Hallen Tanzorchester - Emporio.wav
+data/BallroomData/audio_files/VienneseWaltz/Klaus Hallen Tanzorchester - Ghost House Heart.wav
+data/BallroomData/audio_files/VienneseWaltz/Klaus Hallen Tanzorchester - Hijo de la Luna.wav
+data/BallroomData/audio_files/VienneseWaltz/Klaus Hallen Tanzorchester - Love on the Brain.wav
+data/BallroomData/audio_files/VienneseWaltz/Klaus Hallen Tanzorchester - Nothing Breaks Like a Heart.wav
+data/BallroomData/audio_files/VienneseWaltz/Klaus Hallen Tanzorchester - Perfect.wav
+data/BallroomData/audio_files/VienneseWaltz/Klaus Hallen Tanzorchester - The Rapsody (Titelthema _Fürst Igor_).wav
+data/BallroomData/audio_files/VienneseWaltz/Klaus Hallen Tanzorchester - Time to Say Goodbye.wav
+data/BallroomData/audio_files/VienneseWaltz/Klaus Hallen Tanzorchester - You're My Number One.wav
+data/BallroomData/audio_files/VienneseWaltz/L'Orchestra Cinematique - Potter Waltz (From _Harry Potter and the Goblet of Fire_).wav
+data/BallroomData/audio_files/VienneseWaltz/London Pops Orchestra - A Summer Place.wav
+data/BallroomData/audio_files/VienneseWaltz/Macy Todd - I've Got a Feelin'.wav
+data/BallroomData/audio_files/VienneseWaltz/Major Lazer - Powerful.wav
+data/BallroomData/audio_files/VienneseWaltz/Orchestra Alec Medina - Believe in Three Hazelnuts.wav
+data/BallroomData/audio_files/VienneseWaltz/Orchestra Alec Medina - Bonfire Heart.wav
+data/BallroomData/audio_files/VienneseWaltz/Orchestra Alec Medina - February Song.wav
+data/BallroomData/audio_files/VienneseWaltz/Orchestra Alec Medina - I'm in Love.wav
+data/BallroomData/audio_files/VienneseWaltz/Orchestra Alec Medina - In Gods Hands.wav
+data/BallroomData/audio_files/VienneseWaltz/Orchestra Alec Medina - It Comes and It Goes.wav
+data/BallroomData/audio_files/VienneseWaltz/Orquesta Alec Medina - You Know Me.wav
+data/BallroomData/audio_files/VienneseWaltz/Percy Faith & His Orchestra - Theme from _A Summer Place_.wav
+data/BallroomData/audio_files/VienneseWaltz/Philip Hochstrate - Un Jour a Paris.wav
+data/BallroomData/audio_files/VienneseWaltz/Rihanna - Love On The Brain.wav
+data/BallroomData/audio_files/VienneseWaltz/Sanavé - A Ti Korita Vu _ Angel of Wishes.wav
+data/BallroomData/audio_files/VienneseWaltz/Secret Garden - Moving.wav
+data/BallroomData/audio_files/VienneseWaltz/Tanzorchester Klaus Hallen - Das Spiel.wav
+data/BallroomData/audio_files/VienneseWaltz/The Modern Ballroom Dance Band - Breakaway.wav
+data/BallroomData/audio_files/VienneseWaltz/The Modern Ballroom Dance Band - Theme (From _Game of Thrones_).wav
+data/BallroomData/audio_files/VienneseWaltz/Tony Evans - Black Pearl (From Pirates of the Caribbean) (Viennese Waltz - 52bpm).wav
+data/BallroomData/audio_files/VienneseWaltz/Tony Evans - Harry Potter Theme (Viennese Waltz - 52bpm).wav
+data/BallroomData/audio_files/VienneseWaltz/Tony Evans - Small One _ I Wonder (Viennese Waltz - From the Small One _ Sleeping Beauty).wav
+data/BallroomData/audio_files/VienneseWaltz/Vio Friedmann - Breakaway (Vienna Waltz - 60 T_M).wav
+data/BallroomData/audio_files/VienneseWaltz/Vio Friedmann - Love is all around (Wiener Walzer - 60 T_M).wav
+data/BallroomData/audio_files/VienneseWaltz/Vio Friedmann - My love (Wiener Walzer - 56 T_M).wav
+data/BallroomData/audio_files/VienneseWaltz/Vio Friedmann - This Is Your Song (Vienna Waltz - 58 T_M).wav
+data/BallroomData/audio_files/VienneseWaltz/Vio Friedmann - True love (W. Walzer - 60 T_M).wav
+data/BallroomData/audio_files/Waltz/03 - La Valse D'Amelie.flac
+data/BallroomData/audio_files/Waltz/Adam Hurst - Waltz of Souls.wav
+data/BallroomData/audio_files/Waltz/André Previn - Swan Lake, Op. 20, Act 1_ No. 2, Waltz.wav
+data/BallroomData/audio_files/Waltz/André Rieu - And the Waltz Goes On.wav
+data/BallroomData/audio_files/Waltz/André Rieu - Fascination.wav
+data/BallroomData/audio_files/Waltz/André Rieu - Godfather Waltz (From _The Godfather_).wav
+data/BallroomData/audio_files/Waltz/André Rieu - The Second Waltz, Op. 99a.wav
+data/BallroomData/audio_files/Waltz/Ballroom Orchestra & Singers - Sang viennois.wav
+data/BallroomData/audio_files/Waltz/Berliner Philharmoniker - J. Strauss II_ Accelerationen Waltz, Op. 234.wav
+data/BallroomData/audio_files/Waltz/Berliner Philharmoniker - J. Strauss II_ Rosen aus dem Süden, Op. 388.wav
+data/BallroomData/audio_files/Waltz/Budapest Strauss Ensemble - The Danube Waves_ Valurile Dunarii (the Danube Waves).wav
+data/BallroomData/audio_files/Waltz/Carré Bleu - Suzette.wav
+data/BallroomData/audio_files/Waltz/Cho Young-Wuk - Cries And Whispers.wav
+data/BallroomData/audio_files/Waltz/Cho Young-Wuk - The Last Waltz.wav
+data/BallroomData/audio_files/Waltz/Cihat Aşkın - To Vals Tou Gamou.wav
+data/BallroomData/audio_files/Waltz/Daniel Colin - Ombrages.wav
+data/BallroomData/audio_files/Waltz/Eleni Karaindrou - Karaindrou_ Eternity and a Day_ II. By The Sea.wav
+data/BallroomData/audio_files/Waltz/Eleonora Pellegrino - Waltz in G minor.wav
+data/BallroomData/audio_files/Waltz/Eric Christian - Valse Sentimentale No. 1.wav
+data/BallroomData/audio_files/Waltz/Evgeny Grinko - Valse.wav
+data/BallroomData/audio_files/Waltz/François Feldman - Les valses de Vienne.wav
+data/BallroomData/audio_files/Waltz/Frédéric Chopin & Sarah Ainsworth - Chopin_ Waltz in C-sharp minor, Op. 64, No. 2.wav
+data/BallroomData/audio_files/Waltz/Jannos Eolou - Solino Waltz.wav
+data/BallroomData/audio_files/Waltz/Johann Strauss - Blue Danube.wav
+data/BallroomData/audio_files/Waltz/Johann Strauss - Roses From The South Waltz Op 388.wav
+data/BallroomData/audio_files/Waltz/Johann Strauss (Jr.) & Strauss-Orchestra Vienna - Wine, Women and Song, Waltz Op.333.wav
+data/BallroomData/audio_files/Waltz/Johann Strauss II - Wiener Bonbons Walzer, Op. 307.wav
+data/BallroomData/audio_files/Waltz/Johann Strauss II & Strauß-Orchester Wien & Strauß-Orchester Wien - Artist's Life Waltz, Op. 316.wav
+data/BallroomData/audio_files/Waltz/Joshua Kyan Aalampour - Enemies to Lovers.wav
+data/BallroomData/audio_files/Waltz/Les Petits Parisians - Valse de la Rose.wav
+data/BallroomData/audio_files/Waltz/Mexico Festival Orchestra - Sobre las olas (Over the Waves).wav
+data/BallroomData/audio_files/Waltz/Patrick Watson - Je te laisserai des mots.wav
+data/BallroomData/audio_files/Waltz/Peter Gundry - The Vampire Masquerade.wav
+data/BallroomData/audio_files/Waltz/Piano House - Le Musée.wav
+data/BallroomData/audio_files/Waltz/René Aubry - Séduction.wav
+data/BallroomData/audio_files/Waltz/Rodgers + Hammerstein's Cinderella Original Broadway Orchestra - _Cinderella Waltz_.wav
+data/BallroomData/audio_files/Waltz/Royal Philharmonic Orchestra - The Nutcracker, Op. 71, Act 2_ No. 13, Waltz of the Flowers.wav
+data/BallroomData/audio_files/Waltz/Shigeru Umebayashi - Yumeji’s Theme (From _In the Mood for Love_).wav
+data/BallroomData/audio_files/Waltz/Sir Simon Rattle - The Nutcracker, Op. 71, Act 2_ No. 13, Waltz of the Flowers.wav
+data/BallroomData/audio_files/Waltz/Slovak Radio Symphony Orchestra - Gold und Silber, Op. 79_ Gold und Silber (Gold and Silver), Op. 79.wav
+data/BallroomData/audio_files/Waltz/The Manhattan Pops - The Skaters Waltz.wav
+data/BallroomData/audio_files/Waltz/Trio Garufa - Valse Sans Nom.wav
+data/BallroomData/audio_files/Waltz/Veronika Dudarova - Maskerade-Suite_ I. Waltz.wav
+data/BallroomData/audio_files/Waltz/Vladimir Fedoseyev - The Snowstorm_ II. Waltz.wav
+data/BallroomData/audio_files/Waltz/Yann Tiersen - La valse d'Amélie.wav
+data/BallroomData/audio_files/Waltz/Yann Tiersen - La Veillée.wav
+data/BallroomData/audio_files/Waltz/Zubin Mehta - Märchen aus dem Orient, Walzer, Op. 444.wav
