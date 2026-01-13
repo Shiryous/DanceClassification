@@ -1,9 +1,40 @@
+import numpy as np
+import mlflow
+from mlflow.models import infer_signature
 import torch
+import torch.nn as nn
+import torch.optim as optim
+import torch.nn.functional as F
 import torchvision.transforms as transforms
-from torchvision.datasets import ImageFolder
-from torch.utils.data import DataLoader
 
-# Define transformations
+from torch.utils.data import DataLoader
+from torchvision.datasets import ImageFolder
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.metrics import classification_report, accuracy_score, f1_score, roc_auc_score, confusion_matrix
+
+from globals import SPLIT_SPECTROGRAM_FOLDER_PATH
+
+# %%
+mlflow.set_experiment("Ballroom Dance Experiment")
+# IMPORTANT: Enable system metrics monitoring
+mlflow.config.enable_system_metrics_logging()
+mlflow.config.set_system_metrics_sampling_interval(1)
+
+# Training parameters
+params = {
+    "epochs": 10,
+    "learning_rate":1e-3,
+    "batch_size": 32,
+    "optimizer": "Adam",
+    "model_type": "LSTM",
+    "hidden_units": [128, 128],
+}
+NUM_WORKERS = 12
+train_size = 0.8
+
+#%% Define transformations
 data_transforms = transforms.Compose([
     transforms.Grayscale(num_output_channels=1),
     transforms.Resize((128, 128)),
@@ -11,41 +42,30 @@ data_transforms = transforms.Compose([
     transforms.Normalize(mean=[0.5], std=[0.5])
 ])
 
-NUM_WORKERS = 16
-
-# 1. Create the Dataset
 full_dataset = ImageFolder(
-    root='data/BallroomData/split_spectrograms',
+    root=SPLIT_SPECTROGRAM_FOLDER_PATH,
     transform=data_transforms
 )
 
-# 2. Split into training and testing/validation sets
-train_size = int(0.8 * len(full_dataset))
-test_size = len(full_dataset) - train_size
 train_dataset, test_dataset = torch.utils.data.random_split(
     full_dataset, 
-    [train_size, test_size]
+    [train_size, 1 - train_size]
 )
-
-# 3. Create the DataLoaders
-batch_size = 32
+# Create the DataLoaders
 train_loader = DataLoader(
     train_dataset, 
-    batch_size=batch_size, 
+    batch_size=params['batch_size'], 
     shuffle=True, 
     num_workers=NUM_WORKERS
 )
 test_loader = DataLoader(
     test_dataset, 
-    batch_size=batch_size, 
+    batch_size=params['batch_size'], 
     shuffle=False, 
     num_workers=NUM_WORKERS
 )
 
-import torch.nn as nn
-import torch.nn.functional as F
-import torch
-
+#%% Define Neural Network
 class CRNN(nn.Module):
     def __init__(self, num_classes):
         super(CRNN, self).__init__()
@@ -96,124 +116,98 @@ class CRNN(nn.Module):
         # Classification
         out = self.fc(out)
         return out
-
+    
 # Instantiate the new model
 model = CRNN(num_classes=len(full_dataset.classes))
-
-import torch.optim as optim
 
 # Use GPU if available
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-# Loss Function: CrossEntropyLoss is ideal for classification
+# CrossEntropyLoss is ideal for classification
 criterion = nn.CrossEntropyLoss()
 
 # Optimizer: Adam or SGD are common choices
-optimizer = optim.Adam(model.parameters(), lr=0.001)
+optimizer = optim.Adam(model.parameters(), lr=params['learning_rate'])
 
-num_epochs = 15 # Adjust as needed
+with mlflow.start_run() as run:
 
-print(f"Starting training on {device}...")
+    mlflow.log_params(params)
+    print(f"Starting training on {device}...")
 
-for epoch in range(num_epochs):
-    running_loss = 0.0
-    for i, data in enumerate(train_loader, 0):
-        # Get the inputs and labels, and move them to the correct device
-        inputs, labels = data
-        inputs, labels = inputs.to(device), labels.to(device)
+    for epoch in range(params['epochs']):
+        model.train()
+        train_loss, correct, total = 0, 0, 0
 
-        # Zero the parameter gradients
-        optimizer.zero_grad()
+        for batch_idx, (data, target) in enumerate(train_loader, 0):
+            # Get the inputs and labels, and move them to the correct device
+            data, target = data.to(device), target.to(device)
 
-        # Forward pass
-        outputs = model(inputs)
-        
-        # Calculate loss
-        loss = criterion(outputs, labels)
-        
-        # Backward pass (calculate gradients)
-        loss.backward()
-        
-        # Update weights
-        optimizer.step()
-
-        # Statistics
-        running_loss += loss.item()
-        
-    print(f'Epoch {epoch + 1}, Loss: {running_loss / len(train_loader):.3f}')
-
-print('Finished Training.')
-
-
-import numpy as np
-from sklearn.metrics import classification_report
-
-def evaluate_model(model, data_loader, device, full_dataset):
-    model.eval() # Set the model to evaluation mode
-    correct = 0
-    total = 0
-    
-    # Lists to store all true labels and predictions for detailed analysis
-    all_preds = []
-    all_labels = []
-
-    # Disable gradient calculations
-    with torch.no_grad():
-        for data in data_loader:
-            images, labels = data
-            images, labels = images.to(device), labels.to(device)
-            
             # Forward pass
-            outputs = model(images)
-            
-            # Get the predicted class (index of the highest logit)
-            _, predicted = torch.max(outputs.data, 1)
-            
-            total += labels.size(0)
-            correct += (predicted == labels).sum().item()
-            
-            # Store results
-            all_preds.extend(predicted.cpu().numpy())
-            all_labels.extend(labels.cpu().numpy())
+            optimizer.zero_grad()
+            output = model(data)
+            loss = criterion(output, target)
 
-    # Calculate overall accuracy
-    accuracy = 100 * correct / total
-    print(f'Accuracy of the network on the {total} test images: {accuracy:.2f}%')
-    
-    return np.array(all_labels), np.array(all_preds), full_dataset.classes
+            # Backward pass
+            loss.backward()
+            optimizer.step()
 
-# --- Run the Evaluation ---
-# Assuming 'model', 'test_loader', 'device', and 'full_dataset' are defined from Section 1 & 3
-true_labels, predictions, class_names = evaluate_model(model, test_loader, device, full_dataset)
+            # Calculate metrics
+            train_loss += loss.item()
+            _, predicted = output.max(1)
+            total += target.size(0)
+            correct += predicted.eq(target).sum().item()
 
-# The classification report provides Precision, Recall, and F1-score per class
-print("\n### Detailed Classification Report ###")
-print(classification_report(true_labels, predictions, target_names=class_names))
+            # Log batch metrics (every 100 batches)
+            if batch_idx % 100 == 0:
+                batch_loss = train_loss / (batch_idx + 1)
+                batch_acc = 100.0 * correct / total
+                mlflow.log_metrics(
+                    {"batch_loss": batch_loss, "batch_accuracy": batch_acc},
+                    step=epoch * len(train_loader) + batch_idx,
+                )
+        # Log epoch metrics
+        epoch_loss = train_loss / len(train_loader)
+        epoch_acc = 100.0 * correct / total
+        print('Finished Training.')
 
-import seaborn as sns
-from sklearn.metrics import confusion_matrix
-import matplotlib.pyplot as plt
+        print('Beginning Model Validation')
+        # Validation
+        model.eval()
+        val_loss, val_correct, val_total = 0, 0, 0
+        with torch.no_grad():
+            for data, target in test_loader:
+                data, target = data.to(device), target.to(device)
+                output = model(data)
+                loss = criterion(output, target)
 
-# Generate the confusion matrix
-conf_matrix = confusion_matrix(true_labels, predictions)
+                val_loss += loss.item()
+                _, predicted = output.max(1)
+                val_total += target.size(0)
+                val_correct += predicted.eq(target).sum().item()
 
-# Plot the confusion matrix
-plt.figure(figsize=(8, 6))
-sns.heatmap(
-    conf_matrix, 
-    annot=True, 
-    fmt='d', 
-    cmap='Blues', 
-    xticklabels=class_names, 
-    yticklabels=class_names
-)
-plt.xlabel('Predicted Label')
-plt.ylabel('True Label')
-plt.title('Confusion Matrix')
-plt.show()
+        # Calculate and log epoch validation metrics
+        val_loss = val_loss / len(test_loader)
+        val_acc = 100.0 * val_correct / val_total
 
-save = input("Save the model? Y/N")
-if save in ['y', 'Y']:
-    torch.save(model.state_dict(), "./models/lstm_model_weights.pth")
-    print("Model save successfully!")
+        # Log epoch metrics
+        mlflow.log_metrics(
+            {
+                "train_loss": epoch_loss,
+                "train_accuracy": epoch_acc,
+                "val_loss": val_loss,
+                "val_accuracy": val_acc,
+            },
+            step=epoch,
+        )
+        # Log checkpoint at the end of each epoch
+        mlflow.pytorch.log_model(model, name=f"checkpoint_{epoch}")
+
+        print(
+            f"Epoch {epoch+1}/{params['epochs']}, "
+            f"Train Loss: {epoch_loss:.4f}, Train Acc: {epoch_acc:.2f}%, "
+            f"Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.2f}%"
+        )
+
+    # Log the final trained model
+    model_info = mlflow.pytorch.log_model(model, name="final_model")

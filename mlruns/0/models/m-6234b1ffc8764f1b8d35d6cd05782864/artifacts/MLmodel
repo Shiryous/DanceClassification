@@ -1,0 +1,22 @@
+artifact_path: /mnt/e/DanceClassification/mlruns/0/models/m-6234b1ffc8764f1b8d35d6cd05782864/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.10.12
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.8.0+cu128
+mlflow_version: 3.8.1
+model_id: m-6234b1ffc8764f1b8d35d6cd05782864
+model_size_bytes: 2925971
+model_uuid: m-6234b1ffc8764f1b8d35d6cd05782864
+prompts: null
+utc_time_created: '2026-01-13 17:05:22.436137'
